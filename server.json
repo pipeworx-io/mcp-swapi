@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/swapi",
+  "title": "Swapi",
+  "description": "SWAPI MCP — wraps the Star Wars API (free, no auth)",
+  "version": "1.0.1",
+  "websiteUrl": "https://pipeworx.io/packs/swapi",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-swapi",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/swapi/mcp"
+    }
+  ]
+}
