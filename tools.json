@@ -1,0 +1,66 @@
+[
+  {
+    "name": "search_people",
+    "description": "Search Star Wars characters by name. Returns name, physical attributes, birth year, gender, and homeworld URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Character name to search for (e.g., \"Luke\")"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_planet",
+    "description": "Get a Star Wars planet by its numeric ID. Returns name, climate, terrain, population, and orbital data.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "Planet ID (e.g., 1 for Tatooine)"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "get_starship",
+    "description": "Get a Star Wars starship by its numeric ID. Returns name, model, manufacturer, crew capacity, and hyperdrive rating.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "Starship ID (e.g., 9 for the Death Star)"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "get_film",
+    "description": "Get a Star Wars film by its numeric ID. Returns title, episode number, director, producer, release date, and opening crawl.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "Film ID (e.g., 1 for A New Hope)"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+]
