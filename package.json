@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-swapi",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "SWAPI MCP — wraps the Star Wars API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "swapi",
     "gatewaySlug": "swapi",
-    "sourceHash": "v1-11cd5e78b53a20ac8418b2da6620295a918cf29ff2c0aea94c4e0a4b01da6ed6",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-86c0f6315ce7b0e7fb9aa2e62d04f344221247f69790dad63941d2eada32293e",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
